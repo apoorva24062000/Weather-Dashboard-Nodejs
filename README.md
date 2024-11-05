@@ -6,6 +6,3 @@
 • Fetches real-time weather conditions for the searched location using OpenWeatherMap and Open Meteo APIs.
 • Tech Stack- Node.js, PostgresSQL, Express.js, , HTML, CSS, JavaScript, Leaflet
    library,navigator.geolocation API.
-<br>
-
-![Uploading Screenshot 2024-10-16 at 1.47.32 PM.png…]()
