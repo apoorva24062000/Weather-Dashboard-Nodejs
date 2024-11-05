@@ -1,0 +1,712 @@
+2024-04-02 05:40:33.334,DEBUG,UserController.js,login,61,IN
+2024-04-02 05:40:33.736,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 05:40:33.740,DEBUG,UserController.js,login,100,OUT
+2024-04-02 05:41:32.518,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 05:41:32.527,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 05:41:32.532,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 05:41:32.746,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 08:26:37.814,DEBUG,UserController.js,login,61,IN
+2024-04-02 08:26:37.984,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 08:26:37.985,DEBUG,UserController.js,login,100,OUT
+2024-04-02 08:26:42.826,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 08:26:42.827,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 08:26:42.828,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 08:26:42.834,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 08:33:58.702,DEBUG,UserController.js,login,61,IN
+2024-04-02 08:33:59.006,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 08:33:59.007,DEBUG,UserController.js,login,100,OUT
+2024-04-02 08:34:41.977,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 08:34:41.978,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 08:34:41.979,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 08:34:42.219,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 08:38:44.580,DEBUG,UserController.js,login,61,IN
+2024-04-02 08:38:44.829,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 08:38:44.830,DEBUG,UserController.js,login,100,OUT
+2024-04-02 08:45:20.711,DEBUG,UserController.js,login,61,IN
+2024-04-02 08:45:20.918,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 08:45:20.919,DEBUG,UserController.js,login,100,OUT
+2024-04-02 08:45:26.790,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 08:45:26.791,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 08:45:26.792,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 08:45:26.797,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 08:48:02.579,DEBUG,UserController.js,login,61,IN
+2024-04-02 08:48:02.918,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 08:48:02.919,DEBUG,UserController.js,login,100,OUT
+2024-04-02 08:48:36.052,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 08:48:36.053,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 08:48:36.054,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 08:48:36.275,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 08:49:04.428,DEBUG,UserController.js,login,61,IN
+2024-04-02 08:49:04.700,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 08:49:04.701,DEBUG,UserController.js,login,100,OUT
+2024-04-02 08:49:18.956,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 08:49:18.958,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 08:49:18.958,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 08:49:19.126,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 08:50:56.662,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 08:50:56.662,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 08:50:56.664,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 08:50:56.823,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 09:29:51.439,DEBUG,UserController.js,login,61,IN
+2024-04-02 09:29:51.684,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 09:29:51.685,DEBUG,UserController.js,login,100,OUT
+2024-04-02 09:30:22.609,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 09:30:22.610,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 09:30:22.611,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 09:30:22.741,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 09:31:36.500,DEBUG,UserController.js,login,61,IN
+2024-04-02 09:31:36.759,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 09:31:36.760,DEBUG,UserController.js,login,100,OUT
+2024-04-02 09:31:58.393,DEBUG,UserController.js,login,61,IN
+2024-04-02 09:31:58.634,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 09:31:58.635,DEBUG,UserController.js,login,100,OUT
+2024-04-02 09:32:44.095,DEBUG,UserController.js,login,61,IN
+2024-04-02 09:32:44.318,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 09:32:44.319,DEBUG,UserController.js,login,100,OUT
+2024-04-02 09:51:02.489,DEBUG,UserController.js,login,61,IN
+2024-04-02 09:51:02.748,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 09:51:02.750,DEBUG,UserController.js,login,100,OUT
+2024-04-02 09:51:16.531,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 09:51:16.532,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 09:51:16.535,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 09:51:16.685,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 09:52:22.355,DEBUG,UserController.js,login,61,IN
+2024-04-02 09:52:22.636,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 09:52:22.639,DEBUG,UserController.js,login,100,OUT
+2024-04-02 09:52:26.364,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 09:52:26.365,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 09:52:26.367,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 09:52:26.371,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 10:09:57.423,DEBUG,UserController.js,login,61,IN
+2024-04-02 10:09:57.779,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 10:09:57.781,DEBUG,UserController.js,login,100,OUT
+2024-04-02 10:19:57.050,DEBUG,UserController.js,login,61,IN
+2024-04-02 10:19:57.414,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 10:19:57.415,DEBUG,UserController.js,login,100,OUT
+2024-04-02 10:25:02.481,DEBUG,UserController.js,login,61,IN
+2024-04-02 10:25:02.839,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 10:25:02.840,DEBUG,UserController.js,login,100,OUT
+2024-04-02 10:27:20.137,DEBUG,UserController.js,login,61,IN
+2024-04-02 10:27:20.543,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 10:27:20.548,DEBUG,UserController.js,login,100,OUT
+2024-04-02 10:58:28.535,DEBUG,UserController.js,login,61,IN
+2024-04-02 10:58:28.895,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 10:58:28.896,DEBUG,UserController.js,login,100,OUT
+2024-04-02 10:58:45.276,DEBUG,UserController.js,login,61,IN
+2024-04-02 10:58:45.654,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 10:58:45.655,DEBUG,UserController.js,login,100,OUT
+2024-04-02 10:59:02.163,DEBUG,UserController.js,login,61,IN
+2024-04-02 10:59:02.524,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 10:59:02.525,DEBUG,UserController.js,login,100,OUT
+2024-04-02 10:59:43.911,DEBUG,UserController.js,login,61,IN
+2024-04-02 10:59:44.254,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 10:59:44.258,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:00:04.171,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:00:04.402,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:00:04.403,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:00:21.033,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:00:21.296,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:00:21.297,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:00:47.744,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:00:47.979,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:00:47.981,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:02:33.618,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:02:33.986,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:02:33.989,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:02:54.912,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:02:55.162,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:02:55.163,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:03:19.184,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:03:19.445,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:03:19.447,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:03:36.030,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:03:36.277,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:03:36.279,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:05:17.062,DEBUG,UserController.js,duplicateEmail,112,IN
+2024-04-02 11:05:17.216,DEBUG,UserController.js,duplicateEmail,131,OUT
+2024-04-02 11:05:17.220,DEBUG,UserController.js,register,36,IN
+2024-04-02 11:05:17.420,INFO,UserController.js,register,42, User registered  successfully.
+2024-04-02 11:05:17.421,DEBUG,UserController.js,register,51,OUT
+2024-04-02 11:05:28.948,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:05:29.195,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:05:29.196,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:05:47.098,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:05:47.359,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:05:47.360,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:05:59.948,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:06:00.205,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:06:00.205,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:06:27.122,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:06:27.451,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:06:27.454,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:06:37.065,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:06:37.066,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:06:37.069,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:06:37.075,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:06:53.288,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 11:06:53.289,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 11:06:53.463,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 11:06:53.464,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 11:06:53.483,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 11:06:53.485,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 11:06:53.492,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:06:53.493,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:06:53.494,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:06:53.497,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:07:05.591,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 11:07:05.592,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 11:07:05.747,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 11:07:05.750,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 11:07:05.766,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 11:07:05.767,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 11:07:05.770,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:07:05.771,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:07:05.772,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:07:05.774,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:08:17.669,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:08:17.669,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:08:17.671,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:08:17.818,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:08:43.006,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 11:08:43.008,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 11:08:43.163,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 11:08:43.163,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 11:08:43.169,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 11:08:43.170,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 11:08:43.174,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:08:43.175,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:08:43.176,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:08:43.176,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:15:16.272,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:15:16.578,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:15:16.579,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:15:24.461,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:15:24.462,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:15:24.463,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:15:24.466,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:15:37.449,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 11:15:37.450,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 11:15:37.612,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 11:15:37.613,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 11:15:37.620,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 11:15:37.621,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 11:15:37.625,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:15:37.627,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:15:37.629,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:15:37.630,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:16:12.296,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:16:12.297,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:16:12.298,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:16:12.430,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:16:31.048,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:16:31.049,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:16:31.050,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:16:31.191,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:16:45.496,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 11:16:45.497,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 11:16:45.743,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 11:16:45.744,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 11:16:45.752,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 11:16:45.753,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 11:16:45.757,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:16:45.758,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:16:45.759,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:16:45.761,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:17:16.455,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:17:16.759,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:17:16.760,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:17:29.704,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:17:29.913,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:17:29.913,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:17:59.564,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:17:59.822,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:17:59.824,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:18:13.118,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:18:13.377,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:18:13.377,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:18:39.465,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:18:39.799,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:18:39.803,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:18:57.486,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:18:57.739,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:18:57.741,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:23:36.216,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:23:36.459,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:23:36.460,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:24:13.018,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:24:13.290,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:24:13.292,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:26:49.855,DEBUG,UserController.js,duplicateEmail,112,IN
+2024-04-02 11:26:50.018,DEBUG,UserController.js,duplicateEmail,131,OUT
+2024-04-02 11:26:50.023,DEBUG,UserController.js,register,36,IN
+2024-04-02 11:26:50.129,INFO,UserController.js,register,42, User registered  successfully.
+2024-04-02 11:26:50.129,DEBUG,UserController.js,register,51,OUT
+2024-04-02 11:27:01.623,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:27:01.876,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:27:01.877,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:27:12.580,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:27:12.581,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:27:12.583,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:27:12.724,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:27:37.928,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:27:44.486,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:27:44.594,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:27:44.595,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:36:42.205,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:36:42.534,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:36:42.539,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:41:10.398,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:41:10.735,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:41:10.736,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:42:27.305,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:42:27.305,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:42:27.308,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:42:27.488,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:45:06.290,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:45:06.641,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:45:06.642,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:45:10.530,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:45:10.531,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:45:10.532,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:45:10.535,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:45:54.377,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 11:45:54.378,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 11:46:10.895,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 11:46:10.896,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 11:46:11.069,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 11:46:11.071,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 11:46:11.155,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 11:46:11.155,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 11:46:11.160,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:46:11.161,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:46:11.163,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:46:11.165,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:46:30.359,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 11:46:30.360,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 11:46:30.578,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 11:46:30.579,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 11:46:30.588,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 11:46:30.590,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 11:46:30.594,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:46:30.595,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:46:30.596,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:46:30.597,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:47:57.070,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 11:47:57.071,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 11:47:57.239,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 11:47:57.241,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 11:47:57.249,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 11:47:57.250,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 11:47:57.255,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:47:57.256,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:47:57.257,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:47:57.259,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:50:00.494,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 11:50:00.495,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 11:50:00.676,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 11:50:00.677,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 11:50:00.685,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 11:50:00.686,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 11:50:00.691,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:50:00.692,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:50:00.693,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:50:00.695,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:50:36.527,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:50:36.528,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:50:36.529,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:50:36.695,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:50:56.633,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 11:50:56.634,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 11:50:56.816,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 11:50:56.818,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 11:50:56.827,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 11:50:56.828,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 11:50:56.834,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:50:56.836,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:50:56.837,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:50:56.839,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:53:29.512,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:53:29.515,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:53:29.519,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:53:29.843,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:54:23.111,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 11:54:23.113,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 11:54:23.433,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 11:54:23.435,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 11:54:23.465,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 11:54:23.467,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 11:54:23.475,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:54:23.477,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:54:23.477,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:54:23.480,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:54:50.625,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:54:50.627,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:54:50.630,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:54:50.835,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:55:03.279,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 11:55:03.282,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 11:55:03.525,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 11:55:03.526,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 11:55:03.537,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 11:55:03.538,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 11:55:03.542,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:55:03.544,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:55:03.544,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:55:03.546,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 11:56:38.146,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:56:38.412,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:56:38.412,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:58:55.411,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:58:55.707,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:58:55.708,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:59:13.602,DEBUG,UserController.js,login,61,IN
+2024-04-02 11:59:13.878,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 11:59:13.879,DEBUG,UserController.js,login,100,OUT
+2024-04-02 11:59:55.022,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 11:59:55.025,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 11:59:55.027,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 11:59:55.244,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 12:01:16.911,DEBUG,UserController.js,login,61,IN
+2024-04-02 12:01:17.217,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 12:01:17.218,DEBUG,UserController.js,login,100,OUT
+2024-04-02 12:22:08.352,DEBUG,UserController.js,login,61,IN
+2024-04-02 12:22:08.783,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 12:22:08.787,DEBUG,UserController.js,login,100,OUT
+2024-04-02 12:22:16.511,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 12:22:16.514,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 12:22:16.524,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 12:22:16.540,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 12:24:08.686,DEBUG,UserController.js,login,61,IN
+2024-04-02 12:24:09.021,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 12:24:09.024,DEBUG,UserController.js,login,100,OUT
+2024-04-02 12:24:15.852,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 12:24:15.854,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 12:24:15.857,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 12:24:15.867,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 12:24:58.729,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 12:24:58.731,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 12:24:58.733,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 12:24:58.954,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 12:26:39.263,DEBUG,UserController.js,login,61,IN
+2024-04-02 12:26:39.626,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 12:26:39.628,DEBUG,UserController.js,login,100,OUT
+2024-04-02 12:26:51.652,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 12:26:51.655,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 12:26:51.656,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 12:26:51.875,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 12:32:12.721,DEBUG,UserController.js,login,61,IN
+2024-04-02 12:32:13.713,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 12:32:13.714,DEBUG,UserController.js,login,100,OUT
+2024-04-02 12:32:21.100,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 12:32:21.121,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 12:32:21.123,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 12:32:21.134,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 12:33:23.687,DEBUG,UserController.js,login,61,IN
+2024-04-02 12:33:24.091,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 12:33:24.093,DEBUG,UserController.js,login,100,OUT
+2024-04-02 12:34:23.877,DEBUG,UserController.js,login,61,IN
+2024-04-02 12:34:24.322,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 12:34:24.324,DEBUG,UserController.js,login,100,OUT
+2024-04-02 12:35:38.188,DEBUG,UserController.js,login,61,IN
+2024-04-02 12:35:38.552,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 12:35:38.553,DEBUG,UserController.js,login,100,OUT
+2024-04-02 12:37:54.481,DEBUG,UserController.js,login,61,IN
+2024-04-02 12:37:54.870,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 12:37:54.871,DEBUG,UserController.js,login,100,OUT
+2024-04-02 12:38:06.531,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 12:38:06.539,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 12:38:06.541,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 12:38:06.951,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 12:38:24.455,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 12:38:24.460,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 12:38:24.747,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 12:38:24.750,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 12:38:24.892,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 12:38:24.893,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 12:38:24.904,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 12:38:24.910,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 12:38:24.912,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 12:38:24.914,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 12:39:09.518,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 12:39:09.521,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 12:39:23.027,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 12:39:23.028,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 12:39:56.012,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 12:39:56.015,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 12:39:56.300,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 12:39:56.302,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 12:39:56.310,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 12:39:56.312,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 12:39:56.321,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 12:39:56.324,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 12:39:56.325,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 12:39:56.327,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 12:40:37.185,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 12:40:37.189,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 12:40:37.191,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 12:40:37.408,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 12:40:51.623,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 12:40:51.625,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 12:40:51.928,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 12:40:51.932,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 12:40:51.964,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 12:40:51.965,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 12:40:51.977,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 12:40:51.979,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 12:40:51.981,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 12:40:51.983,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 12:42:59.091,DEBUG,UserController.js,login,61,IN
+2024-04-02 12:42:59.477,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 12:42:59.479,DEBUG,UserController.js,login,100,OUT
+2024-04-02 13:30:35.926,DEBUG,UserController.js,login,61,IN
+2024-04-02 13:30:44.101,DEBUG,UserController.js,login,61,IN
+2024-04-02 13:30:44.262,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 13:30:44.264,DEBUG,UserController.js,login,100,OUT
+2024-04-02 13:30:54.184,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 13:30:54.187,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 13:30:54.191,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 13:30:54.792,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 13:31:23.040,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 13:31:23.042,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 13:31:23.463,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 13:31:23.465,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 13:31:23.517,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 13:31:23.519,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 13:31:23.530,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 13:31:23.534,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 13:31:23.535,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 13:31:23.537,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 13:44:09.703,DEBUG,UserController.js,login,61,IN
+2024-04-02 13:44:10.087,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 13:44:10.093,DEBUG,UserController.js,login,100,OUT
+2024-04-02 13:44:15.117,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 13:44:15.129,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 13:44:15.141,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 13:44:15.150,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 13:46:35.639,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 13:46:35.655,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 13:46:35.658,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 13:46:35.907,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 13:47:05.161,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 13:47:05.172,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 13:47:05.183,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 13:47:05.434,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 13:51:42.519,DEBUG,UserController.js,login,61,IN
+2024-04-02 13:51:42.901,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 13:51:42.902,DEBUG,UserController.js,login,100,OUT
+2024-04-02 14:05:29.111,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 14:05:29.142,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 14:05:29.144,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 14:05:29.425,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 14:12:47.662,DEBUG,UserController.js,login,61,IN
+2024-04-02 14:12:48.038,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 14:12:48.040,DEBUG,UserController.js,login,100,OUT
+2024-04-02 14:19:29.554,DEBUG,UserController.js,login,61,IN
+2024-04-02 14:19:29.868,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 14:19:29.869,DEBUG,UserController.js,login,100,OUT
+2024-04-02 14:20:03.828,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 14:20:03.829,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 14:20:03.830,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 14:20:03.983,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 14:20:16.628,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 14:20:16.629,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 14:20:16.631,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 14:20:16.785,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 14:23:36.061,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 14:23:36.062,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 14:23:36.063,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 14:23:36.234,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 15:36:31.032,DEBUG,UserController.js,login,61,IN
+2024-04-02 15:36:31.401,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 15:36:31.402,DEBUG,UserController.js,login,100,OUT
+2024-04-02 15:42:26.786,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 15:42:26.790,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 15:42:26.792,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 15:42:26.953,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 15:49:40.947,DEBUG,UserController.js,duplicateEmail,112,IN
+2024-04-02 15:49:41.132,DEBUG,UserController.js,duplicateEmail,131,OUT
+2024-04-02 15:59:11.846,DEBUG,UserController.js,login,61,IN
+2024-04-02 15:59:12.140,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 15:59:12.142,DEBUG,UserController.js,login,100,OUT
+2024-04-02 15:59:20.126,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 15:59:20.127,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 15:59:20.128,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 15:59:20.131,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 16:03:18.169,DEBUG,UserController.js,duplicateEmail,112,IN
+2024-04-02 16:03:18.343,DEBUG,UserController.js,duplicateEmail,131,OUT
+2024-04-02 16:03:49.122,DEBUG,UserController.js,duplicateEmail,112,IN
+2024-04-02 16:03:49.304,DEBUG,UserController.js,duplicateEmail,131,OUT
+2024-04-02 16:03:49.309,DEBUG,UserController.js,register,36,IN
+2024-04-02 16:03:49.510,INFO,UserController.js,register,42, User registered  successfully.
+2024-04-02 16:03:49.511,DEBUG,UserController.js,register,51,OUT
+2024-04-02 16:04:04.610,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:04:04.847,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:04:04.848,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:04:09.955,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 16:04:09.955,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 16:04:09.956,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 16:04:09.958,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 16:04:20.951,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 16:04:20.953,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 16:04:21.134,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 16:04:21.138,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 16:04:21.151,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 16:04:21.152,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 16:04:21.156,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 16:04:21.161,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 16:04:21.162,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 16:04:21.163,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 16:04:38.578,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 16:04:38.580,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 16:04:38.765,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 16:04:38.766,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 16:04:38.775,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 16:04:38.776,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 16:04:38.779,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 16:04:38.780,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 16:04:38.780,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 16:04:38.782,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 16:04:59.737,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 16:04:59.738,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 16:04:59.916,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 16:04:59.917,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 16:04:59.924,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 16:04:59.925,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 16:04:59.930,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 16:04:59.931,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 16:04:59.932,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 16:04:59.933,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 16:05:17.155,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 16:05:17.156,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 16:05:17.334,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 16:05:17.336,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 16:05:17.344,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 16:05:17.346,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 16:05:17.355,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 16:05:17.355,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 16:05:17.356,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 16:05:17.358,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 16:05:28.750,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 16:05:28.750,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 16:05:28.751,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 16:05:28.948,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 16:05:39.461,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 16:05:39.462,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 16:05:39.463,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 16:05:39.624,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 16:08:08.644,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:08:08.940,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:08:08.941,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:19:47.904,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:19:48.295,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:19:48.296,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:21:56.265,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:21:56.625,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:21:56.626,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:23:38.178,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:23:38.552,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:23:38.553,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:23:50.464,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:23:50.819,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:23:50.820,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:28:31.556,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:28:31.920,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:28:31.922,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:33:27.272,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:33:27.717,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:33:27.718,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:34:02.301,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:34:02.742,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:34:02.744,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:36:26.690,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:36:27.285,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:36:27.286,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:42:54.363,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:42:55.516,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:42:55.517,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:43:08.331,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:43:08.695,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:43:08.696,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:45:22.324,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:45:23.495,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:45:23.496,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:45:39.317,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:45:39.695,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:45:39.697,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:45:52.697,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:45:53.070,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:45:53.071,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:50:53.537,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:50:53.881,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:50:53.882,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:52:50.425,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:52:50.803,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:52:50.804,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:55:18.105,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:55:18.477,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:55:18.478,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:57:17.655,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:57:18.057,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:57:18.058,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:58:38.049,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:58:38.433,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:58:38.434,DEBUG,UserController.js,login,100,OUT
+2024-04-02 16:59:07.700,DEBUG,UserController.js,login,61,IN
+2024-04-02 16:59:08.073,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 16:59:08.075,DEBUG,UserController.js,login,100,OUT
+2024-04-02 17:00:35.883,DEBUG,UserController.js,login,61,IN
+2024-04-02 17:00:36.274,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 17:00:36.274,DEBUG,UserController.js,login,100,OUT
+2024-04-02 17:01:33.676,DEBUG,UserController.js,login,61,IN
+2024-04-02 17:01:34.050,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 17:01:34.052,DEBUG,UserController.js,login,100,OUT
+2024-04-02 17:03:16.984,DEBUG,UserController.js,login,61,IN
+2024-04-02 17:03:17.333,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 17:03:17.334,DEBUG,UserController.js,login,100,OUT
+2024-04-02 17:04:03.413,DEBUG,UserController.js,login,61,IN
+2024-04-02 17:04:03.784,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 17:04:03.785,DEBUG,UserController.js,login,100,OUT
+2024-04-02 17:05:11.093,DEBUG,UserController.js,login,61,IN
+2024-04-02 17:05:11.917,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 17:05:11.918,DEBUG,UserController.js,login,100,OUT
+2024-04-02 17:05:51.370,DEBUG,UserController.js,login,61,IN
+2024-04-02 17:05:51.776,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 17:05:51.777,DEBUG,UserController.js,login,100,OUT
+2024-04-02 17:06:24.138,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 17:06:24.148,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 17:06:24.152,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 17:06:24.430,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 17:06:46.637,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 17:06:46.639,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 17:06:47.017,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 17:06:47.020,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 17:06:47.171,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 17:06:47.173,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 17:06:47.180,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 17:06:47.181,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 17:06:47.183,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 17:06:47.185,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 17:07:42.971,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-04-02 17:07:42.973,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-04-02 17:07:43.307,DEBUG,WeatherController.js,addcity,99,IN
+2024-04-02 17:07:43.310,DEBUG,WeatherController.js,addcity,130,OUT
+2024-04-02 17:07:43.351,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-04-02 17:07:43.354,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-04-02 17:07:43.384,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 17:07:43.388,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 17:07:43.389,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 17:07:43.390,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 20:22:11.684,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 20:22:11.710,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 20:22:11.714,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 20:24:38.197,DEBUG,UserController.js,login,61,IN
+2024-04-02 20:24:38.588,INFO,UserController.js,login,89,User Logged In successfully
+2024-04-02 20:24:38.589,DEBUG,UserController.js,login,100,OUT
+2024-04-02 20:24:44.074,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 20:24:44.078,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 20:24:44.079,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 20:24:44.094,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-04-02 20:46:37.429,DEBUG,WeatherController.js,getcity,141,IN
+2024-04-02 20:46:37.470,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-04-02 20:46:37.488,DEBUG,WeatherController.js,getcity,169,OUT
+2024-04-02 20:46:37.702,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully

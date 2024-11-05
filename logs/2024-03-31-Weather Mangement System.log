@@ -1,0 +1,15 @@
+2024-03-31 19:29:33.476,DEBUG,UserController.js,login,61,IN
+2024-03-31 19:29:33.944,INFO,UserController.js,login,89,User Logged In successfully
+2024-03-31 19:29:33.946,DEBUG,UserController.js,login,100,OUT
+2024-03-31 19:29:58.011,DEBUG,WeatherController.js,getcity,141,IN
+2024-03-31 19:29:58.027,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-03-31 19:29:58.029,DEBUG,WeatherController.js,getcity,169,OUT
+2024-03-31 19:29:58.469,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-03-31 19:32:39.927,DEBUG,UserController.js,login,61,IN
+2024-03-31 19:32:48.035,DEBUG,UserController.js,login,61,IN
+2024-03-31 19:32:48.193,INFO,UserController.js,login,89,User Logged In successfully
+2024-03-31 19:32:48.196,DEBUG,UserController.js,login,100,OUT
+2024-03-31 19:32:54.489,DEBUG,WeatherController.js,getcity,141,IN
+2024-03-31 19:32:54.492,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-03-31 19:32:54.501,DEBUG,WeatherController.js,getcity,169,OUT
+2024-03-31 19:32:54.522,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully

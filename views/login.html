@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather -App</title>
+    <link rel="stylesheet" type="text/css" href="/css/login.css" />
+    <style>
+    
+    
+    </style>
+</head>
+<body>
+   
+    <div class="navbar">
+        <h1>Weather Dashboard</h1>
+        <div class="d-flex" style="margin-right: 1%;">
+            <!-- <button type="button" class="btn" style="background-color: #fff; color: #5372F0;" data-bs-toggle="modal" data-bs-target="#addCityModal">
+                Add City
+            </button>
+            <button type="button" id="myListButton" class="btn ms-2" style="background-color: #fff; color: #5372F0;">
+                My List
+            </button>
+            <button type="button" id="logoutButton" class="btn ms-2" style="background-color: #fff; color: #5372F0;">
+                Logout
+            </button> -->
+            <a href="/dashboard" class="add-city-link me-2">Home</a>
+
+        </div>
+    </div>
+
+
+   
+    <h2 id="error-message" style="display: none; text-align: center; margin-top: 100px; font-weight: bold">It seems that you're not connected to the internet. Please check your connection and try again</h2>
+
+     
+ 
+  
+
+    <div class="container" id="login-container">
+        <h1>Login</h1>
+        <form id="login-form">
+            <div class="form-control">
+                <input type="text" required name="email" id="login-email">
+                <label>Email</label>
+            </div>
+            <div class="form-control">
+                <input type="password" required name="password" id="login-password">
+                <label>Password</label>
+            </div>
+            <button class="btn" type="submit">Login</button>
+            <p class="text">Don't have an account? <a href="/register">Register</a></p>
+        </form>
+    </div>
+
+  
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css">
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+   
+
+    <script src="/js/login.js"></script>
+ 
+</body>
+</html>
+
+

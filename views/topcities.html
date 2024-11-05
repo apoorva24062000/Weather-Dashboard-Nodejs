@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/css/index.css" />
+
+    <style>
+         .navbar {
+            background-color:#5372F0;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 {
+            margin: 0;
+        }
+        .weather-cards {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center cards horizontally */
+}
+ 
+.weather-cards .card {
+    background:#5372F0 ;
+    padding: 18px 16px;
+    border-radius: 40px;
+    margin: 10px; /* Adjust spacing between cards */
+    flex-basis: calc(25% - 20px); /* Set the width for 4 cards per line */
+    max-width: calc(25% - 20px); /* Ensure maximum width for each card */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    color:#fff;
+}
+
+.add-city-link {
+            text-decoration: none;
+            padding: 8px 16px;
+            background-color: #5372F0;
+            color: #fff;
+            border-radius: 4px;
+        }
+    </style>
+
+
+</head>
+<body style="background-color: #e3f2fd ;">
+    <div class="navbar d-flex justify-content-between align-items-center">
+        <h1>Weather Dashboard</h1>
+        <a href="/dashboard" class="add-city-link me-2">Home</a>
+
+       
+    </div>
+
+
+    <div class="container">
+        <!-- Include any content specific to this page -->
+        <ul class="weather-cards" id="topCitiesWeather"></ul>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/js/topcities.js"></script>
+    
+</body>
+</html>

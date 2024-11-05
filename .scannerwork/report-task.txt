@@ -1,0 +1,6 @@
+projectKey=weather-mangement-system
+serverUrl=https://codequality.ymslilabs.com:8443
+serverVersion=8.5.1.38104
+dashboardUrl=https://codequality.ymslilabs.com:8443/dashboard?id=weather-mangement-system
+ceTaskId=AY6svOqfd6kCz3AjvWoa
+ceTaskUrl=https://codequality.ymslilabs.com:8443/api/ce/task?id=AY6svOqfd6kCz3AjvWoa

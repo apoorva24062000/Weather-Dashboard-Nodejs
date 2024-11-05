@@ -1,0 +1,53 @@
+2024-10-12 11:49:05.463,DEBUG,UserController.js,duplicateEmail,112,IN
+2024-10-12 11:49:05.564,DEBUG,UserController.js,duplicateEmail,131,OUT
+2024-10-12 11:49:05.586,DEBUG,UserController.js,register,36,IN
+2024-10-12 11:49:05.680,INFO,UserController.js,register,42, User registered  successfully.
+2024-10-12 11:49:05.680,DEBUG,UserController.js,register,51,OUT
+2024-10-12 11:49:18.207,DEBUG,UserController.js,login,61,IN
+2024-10-12 11:49:18.323,INFO,UserController.js,login,89,User Logged In successfully
+2024-10-12 11:49:18.324,DEBUG,UserController.js,login,100,OUT
+2024-10-12 11:49:26.247,DEBUG,WeatherController.js,getcity,141,IN
+2024-10-12 11:49:26.248,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-10-12 11:49:26.251,DEBUG,WeatherController.js,getcity,169,OUT
+2024-10-12 11:49:26.254,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-10-12 11:49:33.775,DEBUG,WeatherController.js,duplicatecity,180,IN
+2024-10-12 11:49:33.777,DEBUG,WeatherController.js,duplicatecity,218,OUT
+2024-10-12 11:49:33.784,DEBUG,WeatherController.js,addcity,99,IN
+2024-10-12 11:49:33.787,DEBUG,WeatherController.js,addcity,130,OUT
+2024-10-12 11:49:33.797,INFO,WeatherController.js,processTicksAndRejections,120,city added sucessfully
+2024-10-12 11:49:33.798,INFO,WeatherController.js,processTicksAndRejections,123,city added sucessfully
+2024-10-12 11:49:33.802,DEBUG,WeatherController.js,getcity,141,IN
+2024-10-12 11:49:33.803,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-10-12 11:49:33.806,DEBUG,WeatherController.js,getcity,169,OUT
+2024-10-12 11:49:33.808,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-10-12 11:49:40.283,DEBUG,WeatherController.js,getcity,141,IN
+2024-10-12 11:49:40.284,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-10-12 11:49:40.285,DEBUG,WeatherController.js,getcity,169,OUT
+2024-10-12 11:49:40.288,INFO,WeatherController.js,processTicksAndRejections,161,city fetched sucessfully
+2024-10-12 13:05:16.342,DEBUG,UserController.js,login,59,IN
+2024-10-12 13:05:16.506,INFO,UserController.js,login,87,User Logged In successfully
+2024-10-12 13:05:16.507,DEBUG,UserController.js,login,98,OUT
+2024-10-12 13:05:48.665,DEBUG,WeatherController.js,getcity,139,IN
+2024-10-12 13:05:48.666,ERROR,WeatherController.js,getcity,148,Login Failed
+2024-10-12 13:05:48.669,DEBUG,WeatherController.js,getcity,167,OUT
+2024-10-12 13:05:48.686,INFO,WeatherController.js,processTicksAndRejections,159,city fetched sucessfully
+2024-10-12 13:05:58.222,DEBUG,WeatherController.js,duplicatecity,178,IN
+2024-10-12 13:05:58.226,DEBUG,WeatherController.js,duplicatecity,216,OUT
+2024-10-12 13:06:08.071,DEBUG,WeatherController.js,duplicatecity,178,IN
+2024-10-12 13:06:08.073,DEBUG,WeatherController.js,duplicatecity,216,OUT
+2024-10-12 13:06:08.080,DEBUG,WeatherController.js,addcity,97,IN
+2024-10-12 13:06:08.083,DEBUG,WeatherController.js,addcity,128,OUT
+2024-10-12 13:06:08.093,INFO,WeatherController.js,processTicksAndRejections,118,city added sucessfully
+2024-10-12 13:06:08.094,INFO,WeatherController.js,processTicksAndRejections,121,city added sucessfully
+2024-10-12 13:06:08.098,DEBUG,WeatherController.js,getcity,139,IN
+2024-10-12 13:06:08.098,ERROR,WeatherController.js,getcity,148,Login Failed
+2024-10-12 13:06:08.099,DEBUG,WeatherController.js,getcity,167,OUT
+2024-10-12 13:06:08.102,INFO,WeatherController.js,processTicksAndRejections,159,city fetched sucessfully
+2024-10-12 13:06:15.252,DEBUG,WeatherController.js,getcity,139,IN
+2024-10-12 13:06:15.253,ERROR,WeatherController.js,getcity,148,Login Failed
+2024-10-12 13:06:15.255,DEBUG,WeatherController.js,getcity,167,OUT
+2024-10-12 13:06:15.258,INFO,WeatherController.js,processTicksAndRejections,159,city fetched sucessfully
+2024-10-12 13:06:38.618,DEBUG,WeatherController.js,getcity,139,IN
+2024-10-12 13:06:38.619,ERROR,WeatherController.js,getcity,148,Login Failed
+2024-10-12 13:06:38.622,DEBUG,WeatherController.js,getcity,167,OUT
+2024-10-12 13:06:38.641,INFO,WeatherController.js,processTicksAndRejections,159,city fetched sucessfully

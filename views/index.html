@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="/css/index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <style>
+      #toaster {
+          display: none;
+          position: fixed;
+          height: 50px;
+          bottom: 10px;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: rgba(217, 43, 43, 1);
+          color: #fff;
+          padding: 15px;
+          border-radius: 15px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          z-index: 999;
+      }
+
+      .navbar {
+            background-color:#5372F0;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 {
+            margin: 0;
+        }
+
+        .add-city-link {
+            text-decoration: none;
+            padding: 8px 16px;
+            background-color: #5372F0;
+            color: #fff;
+            border-radius: 4px;
+        }
+        .top8-cities-link {
+            text-decoration: none;
+            padding: 8px 16px;
+            background-color: #5372F0;
+            color: #fff;
+            border-radius: 4px;
+        }
+     .logout-link{
+      text-decoration: none;
+            padding: 8px 16px;
+            background-color: #5372F0;
+            color: #fff;
+            border-radius: 4px;
+     }
+
+    
+
+  </style>
+</head>
+<body>
+
+ <div id="loader" style="display: block;" class="loader">
+  <div class="spinner"></div>
+</div>
+
+  <div id="toaster"></div>
+  <div class="navbar d-flex justify-content-between align-items-center">
+      <h1>Weather Dashboard</h1>
+      
+      <div class="d-flex">
+        <a id="userloggedIn"> Apoorva</a>
+          <a href="/mylist" class="add-city-link me-2" id="mylist" onclick="checkToken()">My List</a>
+          <!-- <a href="/topcities" class="top8-cities-link">Top 8 Cities</a> -->
+          <a href="#" id="logoutButton" class="logout-link">Logout</a>
+          <a href="/" id="login" class="logout-link">Login</a>
+     
+
+         
+      </div>
+  </div>
+  <!-- <div id="error-message" style="text-align: center; margin-top: 100px; font-weight: bold;" > -->
+    <h2  style="display: none;text-align: center; margin-top: 100px; font-weight: bold">It seems that you're not connected to the internet. Please check your connection and try again</h2>
+<!-- </div> -->
+<h3  style="display: none;text-align: center; margin-top: 100px; font-weight: bold">  API TIMEOUT</h2>
+
+<div id="error">
+  <!-- Add this loader HTML at the beginning of your <body> -->
+
+
+ <!-- <div id="load">  -->
+    <div class="container">
+      <div class="weather-input">
+        <!-- <div style="margin-bottom: 7px;">
+        <img src="https://lh3.googleusercontent.com/proxy/g5zahivAIPCJGjyHCiT8L82cZ0YaxNxe47Scv_J20Td8LLhbbptZRQpfzTyyTE5_yT8nmyKYiRFmzyTSlDDBCoQ4HVuAPqQGfrha_lcA0xJL9xWu">
+        </div> -->
+        <h3>Enter a Location Name</h3>
+        <input class="city-input" type="text" placeholder="E.g. London, Tokyo">
+        <button class="search-btn">Search</button>
+        <div class="separator"></div>
+        <button class="location-btn">Use Current Location</button>
+        <h3 style="margin-top:5%;">NEARBY PLACES WEATHER</h3> 
+
+        <div id="map" style="height: 300px; width: 100%; margin-top: 5%;"></div>
+        <h3 style="margin-top:5%;">TOP-8 CITIES</h3> 
+        <div class="topCities-weather-data" style="width: 100%; margin-top: 5%;">
+          <ul class="topCities-weather-cards" id="weatherCards"></ul>
+        </div>
+      </div>
+               
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2></h2>
+            <h6>Temperature: °C</h6>
+            <h6>Wind: M/S</h6>
+            <h6>Humidity: %</h6>
+          </div>
+        </div>
+        <!-- <div id="map" style="height: 300px; width: 100%;"></div> -->
+        <div class="days-forecast">
+          <h2>10-Day Forecast</h2>
+          <ul class="weather-cards">
+            <li class="card">
+              <h3></h3>
+              <h6>Temp: C</h6>
+              <h6>Wind: M/S</h6>
+              <h6>Humidity: %</h6>
+             
+            </li>
+          </ul>
+        </div>
+      </div>
+     
+
+
+    </div>
+</div>
+</div>
+    <script src="/js/index.js"></script>
+    <script src="/js/connection.js"></script>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+    <!-- Add Leaflet.Icon CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.icon/dist/leaflet.icon.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Zc3+JlxTEV2qTF/66yjwJXQXyJyFDqdzr7pbzPkt0itL5Tp/7XtIVQbe0C3IyvXA4SpxHqVgJ8bqziPR5EnJLg==" crossorigin="anonymous" />
+
+
+<!-- Add Leaflet.Icon JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.icon/dist/leaflet.icon.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <script>
+  //  if (window.sessionStorage.token) {
+  //           // If there is a token, show the "My List" button
+  //           document.getElementById("myListButton").style.display = "inline-block";
+  //       } else {
+  //           // If there is no token, show a toast message
+  //           var toaster = document.getElementById("toaster");
+  //           toaster.innerHTML = "Please login";
+  //           toaster.style.display = "block";
+
+  //           // You can set a timeout to hide the toast after a few seconds
+  //           setTimeout(function() {
+  //               toaster.style.display = "none";
+  //           }, 5000); // 5000 milliseconds = 5 seconds (adjust as needed)
+  //       }
+  function isUserLoggedIn() {
+            return !!window.sessionStorage.token; // Return true if token exists, otherwise false
+        }
+
+        // Function to update visibility of "My List" and "Logout" links
+        function updateLinkVisibility() {
+            const myListLink = document.getElementById("mylist");
+            const logoutLink = document.getElementById("logoutButton");
+            const loginlink = document.getElementById("login")
+            const userlogin = document.getElementById("userloggedIn")
+
+            if (isUserLoggedIn()) {
+                // If the user is logged in, show the links
+                myListLink.style.display = "inline-block";
+                logoutLink.style.display = "inline-block";
+                loginlink.style.display="none"
+                userlogin.style.display = "inline-block"
+            } else {
+                // If the user is not logged in, hide the links
+                myListLink.style.display = "none";
+                logoutLink.style.display = "none";
+                loginlink.style.display = "inline-block"
+                userlogin.style.display = ""
+
+            }
+        }
+
+        // Call the function when the page loads
+        window.onload = function () {
+            updateLinkVisibility();
+        };
+
+  </script>
+
+  <script>
+ const loader = document.getElementById("loader");
+
+function hideLoader() {
+    console.log("Hiding loader");
+    loader.style.display = "none";
+}
+
+function showLoader() {
+    console.log("Showing loader");
+    loader.style.display = "block";
+}
+showLoader();
+function allContentLoaded() {
+    console.log("Checking if all content is loaded");
+    if (document.readyState === "complete") {
+        console.log("Document is ready");
+        setTimeout(() => {
+            hideLoader(); // Hide the loader after 5 seconds
+        }, 6000); // 5000 milliseconds = 5 seconds
+    } else {
+        showLoader(); // Show the loader if the page is still loading
+    }
+}
+
+// showLoader(); // Show the loader initially
+allContentLoaded();
+
+
+window.addEventListener("load", () => {
+    console.log("Load event fired");
+    setTimeout(() => {
+        hideLoader(); // Hide the loader after 5 seconds
+    }, 6000); // 5000 milliseconds = 5 seconds
+});
+
+  // Add this script at the end of your body or in an external JavaScript file
+
+//   
+// document.addEventListener("DOMContentLoaded", () => {
+//   const checkInternetConnection = () => {
+//       fetch('https://www.google.com/', { mode: 'no-cors' })
+//           .then(() => {
+//               // Internet connection is available
+//               console.log('Internet is connected');
+//               // const errorMessage = document.getElementById("error-message");
+//               const errorDiv = document.getElementById("error");
+//               // errorMessage.style.display = "none"; // Display the error message
+//               errorDiv.style.display = "block";
+//               const h2Element = document.querySelector('h2');
+//               h2Element.style.display="none"
+
+//           })
+//           .catch(() => {
+//               // Internet connection is not available
+//               // const errorMessage = document.getElementById("error-messag");
+//               const errorDiv = document.getElementById("error");
+//               // errorMessage.style.display = "block"; // Display the error message
+//               errorDiv.style.display = "none";
+//               console.log('Internet is disconnected');
+//               const h2Element = document.querySelector('h2');
+//               h2Element.style.display="block";
+              
+//           });
+//   };
+  
+//   // Call the function to check the internet connection status
+//   setInterval(checkInternetConnection, 2000);
+//       console.log("DOMContentLoaded event fired");
+   
+// });
+
+
+  </script>
+
+  <script>
+    
+    
+    const user = sessionStorage.getItem("userName");
+    const userNameLink = document.getElementById("userloggedIn");
+
+    if (user) {
+        userNameLink.innerHTML = `${user}`;
+    } else {
+        userNameLink.textContent = "User";
+    }
+
+    
+  </script>
+<script>
+ 
+</script>
+</body>
+</html> 

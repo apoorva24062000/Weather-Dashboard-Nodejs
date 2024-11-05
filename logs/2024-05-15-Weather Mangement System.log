@@ -1,0 +1,32 @@
+2024-05-15 23:45:53.147,DEBUG,UserController.js,duplicateEmail,112,IN
+2024-05-15 23:45:53.222,DEBUG,UserController.js,duplicateEmail,131,OUT
+2024-05-15 23:45:53.244,DEBUG,UserController.js,register,36,IN
+2024-05-15 23:45:53.326,DEBUG,UserController.js,register,51,OUT
+2024-05-15 23:45:55.670,DEBUG,UserController.js,duplicateEmail,112,IN
+2024-05-15 23:45:55.697,DEBUG,UserController.js,duplicateEmail,131,OUT
+2024-05-15 23:45:55.701,DEBUG,UserController.js,register,36,IN
+2024-05-15 23:45:55.771,DEBUG,UserController.js,register,51,OUT
+2024-05-15 23:47:29.950,DEBUG,UserController.js,duplicateEmail,112,IN
+2024-05-15 23:47:29.972,DEBUG,UserController.js,duplicateEmail,131,OUT
+2024-05-15 23:47:29.980,DEBUG,UserController.js,register,36,IN
+2024-05-15 23:47:30.061,DEBUG,UserController.js,register,51,OUT
+2024-05-15 23:48:43.981,DEBUG,UserController.js,duplicateEmail,112,IN
+2024-05-15 23:48:44.000,DEBUG,UserController.js,duplicateEmail,131,OUT
+2024-05-15 23:48:44.006,DEBUG,UserController.js,register,36,IN
+2024-05-15 23:48:44.100,DEBUG,UserController.js,register,51,OUT
+2024-05-15 23:52:31.932,DEBUG,UserController.js,duplicateEmail,112,IN
+2024-05-15 23:52:31.971,DEBUG,UserController.js,duplicateEmail,131,OUT
+2024-05-15 23:52:31.982,DEBUG,UserController.js,register,36,IN
+2024-05-15 23:52:32.073,INFO,UserController.js,register,42, User registered  successfully.
+2024-05-15 23:52:32.073,DEBUG,UserController.js,register,51,OUT
+2024-05-15 23:52:44.309,DEBUG,UserController.js,login,61,IN
+2024-05-15 23:52:44.437,INFO,UserController.js,login,89,User Logged In successfully
+2024-05-15 23:52:44.438,DEBUG,UserController.js,login,100,OUT
+2024-05-15 23:54:23.710,DEBUG,WeatherController.js,getcity,141,IN
+2024-05-15 23:54:23.712,ERROR,WeatherController.js,getcity,150,Login Failed
+2024-05-15 23:54:23.717,DEBUG,WeatherController.js,getcity,169,OUT
+2024-05-15 23:54:23.753,ERROR,uncaughtException: Error in Fetching cities
+Error: Error in Fetching cities
+    at Object.fetchcity (/Users/apoorvasingh/Downloads/Apoorva-singh-allprojects/Weather-Mangement-System/service/WeatherService.js:116:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/apoorvasingh/Downloads/Apoorva-singh-allprojects/Weather-Mangement-System/controller/WeatherController.js:160:22

@@ -1,0 +1,474 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>city</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-glCJ8iDc5fDT1GXNXtJ6iHtL2HABQaRflJzF5U2VZL8gRz9FdP5sa8c2FZI1YV/M" crossorigin="anonymous">
+
+
+    <style>
+ 
+        .navbar {
+            background-color:#5372F0;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 {
+            margin: 0;
+        
+        }
+        #toaster {    /*Added Toaster css*/
+            display: none;
+            position: fixed;
+            top: 70px;
+            z-index: 1;
+            right: 20px;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+         .current-weather {
+            color: #fff;
+            background: #5372F0;
+            border-radius: 30px;
+            padding: 20px 70px 20px 20px; 
+          
+            display: flex;
+            justify-content: space-between;
+            margin-left: 38%;
+    /* text-align: center; */
+    max-width: calc(25% - 20px);
+            } 
+
+       
+        .days-forecast {
+    padding: 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    /* height: 100vh; */
+    /* overflow-y: auto; Add vertical scrolling if necessary */
+}
+ 
+.weather-cards {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center cards horizontally */
+}
+ 
+.weather-cards .card {
+    background:#5372F0 ;
+    padding: 18px 16px;
+    border-radius: 40px;
+    margin: 10px; /* Adjust spacing between cards */
+    flex-basis: calc(25% - 20px); /* Set the width for 4 cards per line */
+    max-width: calc(25% - 20px); /* Ensure maximum width for each card */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    color:#fff;
+
+}
+
+.add-city-link {
+            text-decoration: none;
+            padding: 8px 16px;
+            background-color: #5372F0;
+            color: #fff;
+            border-radius: 4px;
+        }
+        .navba {
+            background-color:#5372F0;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+         .navba h1 {
+            margin: 0;
+            background: #5372F0;
+    font-size: 1.774rem;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    letter-spacing: 1.06px;
+
+    /* margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    font-weight: bold;
+        
+        }
+
+        .logout-link{
+      text-decoration: none;
+            padding: 8px 16px;
+            background-color: #5372F0;
+            color: #fff;
+            border-radius: 4px;
+     }
+
+     .logout-link{
+      text-decoration: none;
+            padding: 8px 16px;
+            background-color: #5372F0;
+            color: #fff;
+            border-radius: 4px;
+     }
+     .alt-text-end{
+        text-align: right !important;
+     }
+     .with-bullets {
+    list-style-type: disc;
+    padding-left: 20px;
+    color:#fff
+}
+
+/* CSS for loader */
+#loader {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: none;
+}
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+  display: none;
+}
+
+/* CSS for non-blurring loader */
+#nonBlurLoader {
+    position: fixed;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Customize the loader's appearance */
+    /* Example styles */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    display: none; /* Initially hide the loader */
+}
+
+#nonBlurLoader .spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color: #e3f2fd;">
+   
+    <div id="toaster">    <!-- Added Toaster -->
+        <div id="toasterMessage"></div>
+    </div>
+
+    
+    <!-- Loader HTML -->
+                <!-- Loader HTML -->
+<div id="loader">
+    <div class="spinner"></div>
+</div>
+    
+    <div class="navba">
+        <h1 >Weather Dashboard</h1>
+        <div class="d-flex " style="margin-right: 1%;">
+
+
+
+           <!-- Plus icon to open the Add City modal -->
+           <!-- <button type="button" class="btn btn-primary" style="background-color: #fff; color: #5372F0;" data-bs-toggle="modal" data-bs-target="#addCityModal">
+            +
+           </button> -->
+           <a id="userloggedIn" class="logout-link" > Apoorva</a>
+
+            <a href="/dashboard" class="add-city-link me-2">Home</a>
+            <a href="#" id="logoutButton" class="logout-link">Logout</a>
+
+
+        </div>
+    </div>
+  <!-- Add City Modal  -->
+<div class="modal fade" id="addCityModal" tabindex="-1" aria-labelledby="addCityModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addCityModalLabel">Add City</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="clearInputFields()"></button>
+            </div>
+            <div class="modal-body">
+                <div id="cityLoader" class="spinner" style="display: none;"></div>
+
+                <!-- Country Select Form -->
+                <form id="selectCountryForm">
+                    <div class="mb-3">
+                        <label for="countrySelectModal" class="form-label">Select Country:</label>
+                        <select class="form-select" id="countrySelectModal">
+                            <!-- Countries will be populated dynamically using JavaScript -->
+                        </select>
+                    </div>
+                    <!-- City Select Form -->
+                    <div class="mb-3">
+                        <!-- <div id="cityloader" class="load" style="margin-top: -10%;"></div> -->
+                        <div id="load" class="loader" style="margin-top: -10%;"></div>
+                        <label for="citySelectModal" class="form-label">Select City:</label>
+                        <select class="form-select" id="citySelectModal">
+                            <!-- Cities will be populated dynamically using JavaScript -->
+
+                        </select>
+                    </div>
+                </form>
+                <!-- City Input Form -->
+                <form id="addCityForm">
+                    <!-- <div class="mb-3">
+                        <label for="cityName" class="form-label">City Name</label>
+                        <input type="text" class="form-control" id="cityName" required>
+                    </div> -->
+                    <div class="d-flex justify-content-end"> <!-- Aligns the button to the right -->
+                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- 10-Day Forecast Section -->
+    <!-- <div class="days-forecast">
+        <h2 style="text-align: center;">My List</h2>
+        <button type="button" class="btn btn-primary float-end" style="background-color: #fff; color: #5372F0;" data-bs-toggle="modal" data-bs-target="#addCityModal">
+            +
+        </button>
+        <ul class="weather-cards" id="weatherCards"></ul>
+    </div> -->
+    <h2  style="display: none; text-align: center; margin-top: 100px; font-weight: bold;">It seems that you're not connected to the internet. Please check your connection and try again</h2>
+
+    <div id="error">
+
+    <div class="days-forecast">
+        <div class="row">
+            <div class="col-md-3 text-start">
+                <h2>My List</h2>
+            </div>
+            <div class="col-md-6"></div> <!-- Empty column to center the title -->
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-primary" style="background-color:#5372F0 ; color: #fff;  font-weight: bold;height: 50px; padding: 5px 10px;" data-bs-toggle="modal" data-bs-target="#addCityModal">
+                    <b  style="font-size: 1.5em;">+</b>
+                </button>
+            </div>
+            <div class="col-md-3 alt-text-end" style="display:none;">
+                <a href="/mylist" class="add-city-link me-2">Go Back To My List</a>
+            </div>
+        </div>
+        <div class="weather-data">
+        <!-- <div class="current-weather" style="display:none;">
+        </div> -->
+        <ul class="weather-cards" id="weatherCards"></ul>
+    </div>
+    </div>
+    </div>
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="/js/city.js"></script>
+    <script src="/js/connection.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <!-- <script>
+        if(!window.sessionStorage.token){
+            window.location.href ='/'
+        }
+    </script> -->
+    <script>
+
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        const countrySelectModal = document.getElementById('countrySelectModal');
+        const citySelectModal = document.getElementById('citySelectModal');
+        const loader = document.getElementById('load');
+    
+        function showLoad() {
+            loader.style.display = 'block';
+        }
+    
+        function hideLoad() {
+            loader.style.display = 'none';
+        }
+    
+        fetch('https://countriesnow.space/api/v0.1/countries')
+        .then(response => response.json())
+        .then(data => {
+            data.data.forEach(country => {
+                const option = document.createElement('option');
+                option.text = country.country;
+                countrySelectModal.add(option);
+                document.getElementById('citySelectModal').value = '';
+
+            });
+        })
+        .catch(error => console.error('Error fetching countries:', error));
+        document.getElementById('citySelectModal').value = '';
+        countrySelectModal.addEventListener('change', function() {
+            const selectedCountry = this.value;
+            showLoad();
+            document.getElementById('citySelectModal').value = '';
+
+            fetch(`https://countriesnow.space/api/v0.1/countries/cities`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    country: selectedCountry.toLowerCase()
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                citySelectModal.innerHTML = '';
+                data.data.forEach(city => {
+                    const option = document.createElement('option');
+                    option.text = city;
+                    citySelectModal.add(option);
+                });
+                hideLoad();
+            })
+            .catch(error => console.error('Error fetching cities:', error));
+        });
+    });
+    </script>
+     <script>
+        if(!window.sessionStorage.token){
+            window.location.href ='/'
+        }
+    </script>
+    <script>
+     function clearInputFields() {
+        // Clear the input fields inside the modal
+        document.getElementById('countrySelectModal').value = '';
+        document.getElementById('citySelectModal').value = '';
+    }
+</script>
+<script>
+    
+    
+    const user = sessionStorage.getItem("userName");
+    const userNameLink = document.getElementById("userloggedIn");
+
+    if (user) {
+        userNameLink.innerHTML = `${user}`;
+    } else {
+        userNameLink.textContent = "User";
+    }
+
+    
+  </script>
+  
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const loader = document.getElementById("loader"); // Get reference to the loader element
+        
+        const checkInternetConnection = () => {
+            fetch('https://www.google.com/', { mode: 'no-cors' })
+                .then(() => {
+                    // Internet connection is available
+                    console.log('Internet is connected');
+                    const errorDiv = document.getElementById("error");
+                    errorDiv.style.display = "block"; // Display the error message
+                    const h2Element = document.querySelector('h2');
+                    h2Element.style.display="none";
+
+                    // Hide the loader when internet is connected and error message is displayed
+                    // loader.style.display = "none";
+                })
+                .catch(() => {
+                    // Internet connection is not available
+                    console.log('Internet is disconnected');
+                    const errorDiv = document.getElementById("error");
+                    errorDiv.style.display = "none"; // Hide the error message
+                    const h2Element = document.querySelector('h2');
+                    h2Element.style.display="block";
+
+                    // // Show the loader when internet is disconnected
+                    // loader.style.display = "block";
+
+                    // // Hide the loader after 4 seconds
+                    // setTimeout(() => {
+                    //     loader.style.display = "none";
+                    // }, 9000);
+                });
+        };
+
+        // Call the function to check the internet connection status
+        setInterval(checkInternetConnection, 2000);
+        console.log("DOMContentLoaded event fired");
+    });
+</script> -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+
+</body>
+</html>
